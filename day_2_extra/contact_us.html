@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact_us | page</title>
+    <link rel="stylesheet" href="./css/master.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="about_us.html">about_us</a></li>
+            <li class="active"><a href="contact_us.html">contact_us</a></li>
+        </ul>
+    </div>
+    <h1>contact_us</h1>
+    <div>
+        <form action="contact_us.html" method="POST">
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="John Doe"></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Contact number</label></td>
+                    <td><input type="number" name="number" id="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message</label></td>
+                    <td><textarea name="message" id="message" rows="10"></textarea></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
